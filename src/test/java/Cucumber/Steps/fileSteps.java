@@ -11,6 +11,7 @@ public class fileSteps {
     @When("^same Profile$")
     public void sameProfile() {
         System.out.println("2");
+        System.out.println("Making changes");
     }
 
     @Then("^Difference$")
